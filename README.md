@@ -8,7 +8,8 @@ How to clean, format and prepare GPT array for proxmox
 
 + [How To Partition and Format Storage Devices in Linux - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux)
 + [How to Delete Partition in Linux](https://phoenixnap.com/kb/delete-partition-linux)
-
++ [How to Format Disk Partitions in Linux: ext4, NTFS and FAT32](https://phoenixnap.com/kb/linux-format-disk)
+ 
 ## info about disk
 
 install
