@@ -1,6 +1,12 @@
 # disk
 How to clean, format and prepare GPT array for proxmox
 
++ Try the steps, especially you got Issues during Proxmox Backup Server Initialize Disk with GPT 
+
+## documents, sources
+
++ [How To Partition and Format Storage Devices in Linux | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux)
+
 
 ## info about disk
 
