@@ -55,7 +55,7 @@ Capabilities:
 
 
 
-## with parted
+## parted
 
 install
 ```
@@ -75,7 +75,16 @@ Information: You may need to update /etc/fstab.
 ```
 
 
-#### Delete Partitions with parted
+### GPT with proxmox tool
+
+To initialize a disk with a new GPT, use the initialize subcommand:
+
+```bash
+proxmox-backup-manager disk initialize sdb
+```
+
+
+### Delete Partitions with parted
 
 Before deleting a partition, back up your data. 
 All data is automatically deleted when a partition is deleted.
@@ -86,7 +95,7 @@ All data is automatically deleted when a partition is deleted.
 ![image](https://github.com/tom-sapletta-com/proxmox-disk/assets/5669657/f3f34a96-879b-4788-8631-98b549450216)
 
 
-####  Verify Partition Deletion
+### Verify Partition Deletion
 
 Reload the partition table to verify that the partition has been deleted. 
 
@@ -95,7 +104,7 @@ Reload the partition table to verify that the partition has been deleted.
 The terminal prints out the partition structure of the disk selected in Step 2.
 
 
-#### Save Changes and Quit
+### Save Changes and Quit
 
 + run the **w** command to write and save changes made to the disk.
 
