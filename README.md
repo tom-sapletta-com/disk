@@ -76,6 +76,7 @@ Information: You may need to update /etc/fstab.
 
 
 ### GPT with proxmox tool
++ [Backup Storage — Proxmox Backup 3.0.1-1 documentation](https://pbs.proxmox.com/docs/storage.html)
 
 To initialize a disk with a new GPT, use the initialize subcommand:
 
