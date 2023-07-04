@@ -73,6 +73,24 @@ Information: You may need to update /etc/fstab.
 ```
 
 
+## Check disk performance
+
+```bash
+hdparm -Ttv /dev/sdb1
+```
+
+out:
+```
+/dev/sdb1:
+ multcount     =  0 (off)
+ readonly      =  0 (off)
+ readahead     = 131064 (on)
+ geometry      = 60801/255/63, sectors = 976771087, start = 2048
+ Timing cached reads:   12072 MB in  2.00 seconds = 6041.48 MB/sec
+ Timing buffered disk reads: 1214 MB in  3.04 seconds = 398.73 MB/sec
+```
+
+SPEED: **398.73 MB/sec**
 
 ## proxmox backup server
 
