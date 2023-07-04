@@ -82,11 +82,17 @@ Information: You may need to update /etc/fstab.
 ![image](https://github.com/tom-sapletta-com/disk/assets/5669657/015cede6-26e3-4946-a28c-dd6fb8df4fcd)
 
 
-### process
+### Directory creating process
 
 ![image](https://github.com/tom-sapletta-com/disk/assets/5669657/730d2dcb-2e83-41cb-9474-71625a4021aa)
 
 
-### created disk
+### Directory created
 
 ![image](https://github.com/tom-sapletta-com/disk/assets/5669657/28222c46-3b6b-4639-badb-464c8d8a7acd)
+
+
+### Datastore created
+
+![image](https://github.com/tom-sapletta-com/disk/assets/5669657/2b425743-a881-41cb-968b-3e66bec36072)
+
