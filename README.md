@@ -7,7 +7,7 @@ How to clean, format and prepare GPT array for proxmox
 ## documents, sources
 
 + [How To Partition and Format Storage Devices in Linux - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux)
-
++ [How to Delete Partition in Linux](https://phoenixnap.com/kb/delete-partition-linux)
 
 ## info about disk
 
@@ -74,6 +74,47 @@ Information: You may need to update /etc/fstab.
 ```
 
 
+#### Delete Partitions with parted
+
+Before deleting a partition, back up your data. 
+All data is automatically deleted when a partition is deleted.
+
++ run the **d** command in the fdisk command-line utility.
+
+
+![image](https://github.com/tom-sapletta-com/proxmox-disk/assets/5669657/f3f34a96-879b-4788-8631-98b549450216)
+
+
+####  Verify Partition Deletion
+
+Reload the partition table to verify that the partition has been deleted. 
+
++ run the **p** command.
+
+The terminal prints out the partition structure of the disk selected in Step 2.
+
+
+#### Save Changes and Quit
+
++ run the **w** command to write and save changes made to the disk.
+
+
+
+## Formatting Disk Partition with ext4 File System
+
+### Format a disk partition with the ext4 file system using the following command:
+
+```bash
+sudo mkfs -t ext4 /dev/sdb1
+```
+
+### Next, verify the file system change using the command:
+
+```bash
+lsblk -f
+```
+
+
 ## Check disk performance
 
 ```bash
@@ -92,6 +133,7 @@ out:
 ```
 
 SPEED: **398.73 MB/sec**
+
 
 ## proxmox backup server
 
@@ -121,3 +163,11 @@ SPEED: **398.73 MB/sec**
 
 ![image](https://github.com/tom-sapletta-com/disk/assets/5669657/2b425743-a881-41cb-968b-3e66bec36072)
 
+
+
+
+---
++ [edit](https://github.com/tom-sapletta-com/proxmox-disk/edit/main/README.md)
++ [https://github.com/tom-sapletta-com/proxmox-disk](https://github.com/tom-sapletta-com/proxmox-disk)
+
+  
