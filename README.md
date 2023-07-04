@@ -6,7 +6,7 @@ How to clean, format and prepare GPT array for proxmox
 
 ## documents, sources
 
-+ [How To Partition and Format Storage Devices in Linux | DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux)
++ [How To Partition and Format Storage Devices in Linux - DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-partition-and-format-storage-devices-in-linux)
 
 
 ## info about disk
