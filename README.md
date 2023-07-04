@@ -1,4 +1,4 @@
-# disk
+# Disk preparation on proxmox backup server
 
 How to clean, format and prepare GPT array for proxmox
 
