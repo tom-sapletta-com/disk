@@ -1,4 +1,4 @@
-# Disk preparation on proxmox backup server
+# [Disk preparation on proxmox backup server](https://tom-sapletta-com.github.io/proxmox-disk/)
 
 How to clean, format and prepare GPT array for proxmox
 
