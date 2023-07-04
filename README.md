@@ -65,3 +65,28 @@ Warning: The existing disk label on /dev/sdb will be destroyed and all data on t
 Yes/No? y                                                                 
 Information: You may need to update /etc/fstab.
 ```
+
+
+
+## proxmox backup server
+
+
+[/#pbsStorageAndDiskPanel](#pbsStorageAndDiskPanel)
+
+![image](https://github.com/tom-sapletta-com/disk/assets/5669657/e56d1297-9dc4-43d7-80fc-837007d94312)
+
+
+
+### create Directory
+
+![image](https://github.com/tom-sapletta-com/disk/assets/5669657/015cede6-26e3-4946-a28c-dd6fb8df4fcd)
+
+
+### process
+
+![image](https://github.com/tom-sapletta-com/disk/assets/5669657/730d2dcb-2e83-41cb-9474-71625a4021aa)
+
+
+### created disk
+
+![image](https://github.com/tom-sapletta-com/disk/assets/5669657/28222c46-3b6b-4639-badb-464c8d8a7acd)
